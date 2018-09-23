@@ -1,4 +1,4 @@
-# ecomplus-recomendation-cards
+# ecomplus-ml-cards
 Python script for E-Com Plus Admin cards recomendation with machine learning and data science
 
 # Technology stack
