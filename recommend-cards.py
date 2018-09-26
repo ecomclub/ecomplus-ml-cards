@@ -13,8 +13,7 @@ import time
 begin = time.time() #run time calculation
 
 # -- data analysis
-
-df= pd.read_csv('sys.argv[1]',encoding='iso-8859-1',delimiter ='|')
+df= pd.read_csv(sys.argv[1],encoding='iso-8859-1')
 df.head()
 
 # -- Let's inspect the pattern of how to use the user cards.
