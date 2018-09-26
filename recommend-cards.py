@@ -73,8 +73,8 @@ for uid, user_ratings in top_n.items():
 # -- print the data in csv file
 
 weight =40 # card size initial
-with open(sys.argv[3], 'w') as csvfile:
-    writecsv = csv.writer(csvfile, delimiter='|', quoting=csv.QUOTE_MINIMAL)
+with open(sys.argv[3], 'w') as csvfile: 
+    writecsv = csv.writer(csvfile)
     writecsv.writerow(["authentication_id","card_id","position"])
 
     for uid, user_ratings in top_n.items():
